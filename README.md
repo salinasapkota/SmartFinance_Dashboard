@@ -73,4 +73,47 @@ A full-stack personal finance dashboard that visualizes spending and generates *
 ---
 
 ## Project Structure
+SmartFinance_Dashboard/
+├─ backend/
+│ ├─ src/
+│ │ └─ app.js
+│ ├─ .env # NOT committed (OPENAI_API_KEY, PORT)
+│ └─ package.json
+└─ frontend/
+├─ src/
+│ ├─ App.jsx
+│ ├─ App.css
+│ ├─ main.jsx
+│ └─ index.css
+└─ package.json
+
+---
+
+## 🚀 Run Locally (Quickstart)
+
+### 1) Backend
+```bash
+cd backend
+npm install
+
+# Create backend/.env (do NOT commit):
+# OPENAI_API_KEY=sk-...your key...
+# PORT=5000
+
+# Ensure backend/package.json has:
+# {
+#   "type": "module",
+#   "main": "src/app.js",
+#   "scripts": {
+#     "dev": "nodemon --watch src --ext js --exec node src/app.js",
+#     "start": "node src/app.js"
+#   }
+# }
+
+### 2) **Frontend**
+
+npm run dev   # http://localhost:5000
+cd ../frontend
+npm install
+npm run dev   # usually http://localhost:5173
 
