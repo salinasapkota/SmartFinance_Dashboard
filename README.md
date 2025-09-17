@@ -111,15 +111,18 @@ npm install
 #   }
 # }
 
-## 🖼️ Screenshots
 
-| Dashboard (Pie + Table) | AI Insights |
-|---|---|
-| ![Dashboard](./docs/screenshots/pie.png) | ![AI](./docs/screenshots/AI.png) |
 ```
 ### 2) **Frontend** (Terminal B)
 ```bash
 cd frontend
 npm install
+
+```
+## 🖼️ Screenshots
+
+| Dashboard (Pie + Table) | AI Insights |
+|---|---|
+| ![Dashboard](./docs/screenshots/pie.png) | ![AI](./docs/screenshots/AI.png) |
 npm run dev   # app on http://localhost:5173
 ```
