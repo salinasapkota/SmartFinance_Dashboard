@@ -121,7 +121,7 @@ npm install
 ```
 ## 🖼️ Screenshots
 
-| Dashboard (Pie + Table) | AI Insights |
+| AI Insights | Dashboard (Pie + Table) |
 |---|---|
 | ![Dashboard](./docs/screenshots/pie.png) | ![AI](./docs/screenshots/AI.png) |
 npm run dev   # app on http://localhost:5173
