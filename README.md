@@ -109,11 +109,10 @@ npm install
 #     "start": "node src/app.js"
 #   }
 # }
-
-### 2) **Frontend**
-
-npm run dev   # http://localhost:5000
-cd ../frontend
+```
+### 2) **Frontend** (Terminal B)
+```bash
+cd frontend
 npm install
-npm run dev   # usually http://localhost:5173
-
+npm run dev   # app on http://localhost:5173
+```
