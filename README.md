@@ -73,6 +73,7 @@ A full-stack personal finance dashboard that visualizes spending and generates *
 ---
 
 ## Project Structure
+```
 SmartFinance_Dashboard/
 ├─ backend/
 │ ├─ src/
@@ -86,7 +87,7 @@ SmartFinance_Dashboard/
 │ ├─ main.jsx
 │ └─ index.css
 └─ package.json
-
+```
 ---
 
 ## 🚀 Run Locally (Quickstart)
