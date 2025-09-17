@@ -110,6 +110,12 @@ npm install
 #     "start": "node src/app.js"
 #   }
 # }
+
+## 🖼️ Screenshots
+
+| Dashboard (Pie + Table) | AI Insights |
+|---|---|
+| ![Dashboard](./docs/screenshots/pie.png) | ![AI](./docs/screenshots/AI.png) |
 ```
 ### 2) **Frontend** (Terminal B)
 ```bash
